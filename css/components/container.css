@@ -1,0 +1,24 @@
+.container {
+	width: 700px
+	margin: 80 auto;
+	justify-content: center;
+}
+
+@media (max-width: 960px) {
+	/*for a screen < 960px, this CSS will read */
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	/* for a screen < 720px, this CSS will be read */
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	/*for a sscreen <540px, this CSS will be read */
+	.container {
+		width: 350px;
+	}
+}
